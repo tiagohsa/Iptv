@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AliePlay - IPTV Profissional</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Hero / Banner -->
+<header class="hero">
+  <img src="logo.png" class="logo">
+  <h1>AliePlay</h1>
+  <p>Aperte o play e aproveite milhares de canais, filmes e séries!</p>
+  <a href="#planos" class="btn-hero">Assinar Agora</a>
+</header>
+
+<!-- Vantagens -->
+<section class="vantagens">
+  <h2>Por que escolher AliePlay?</h2>
+  <div class="vantagens-cards">
+    <div class="card">
+      <img src="https://img.icons8.com/ios-filled/50/ff00cc/tv.png"/>
+      <h3>+10.000 canais</h3>
+    </div>
+    <div class="card">
+      <img src="https://img.icons8.com/ios-filled/50/ff00cc/movie.png"/>
+      <h3>Filmes e séries</h3>
+    </div>
+    <div class="card">
+      <img src="https://img.icons8.com/ios-filled/50/ff00cc/smart-tv.png"/>
+      <h3>Smart TV, Android, iOS</h3>
+    </div>
+    <div class="card">
+      <img src="https://img.icons8.com/ios-filled/50/ff00cc/hd.png"/>
+      <h3>Qualidade HD/4K</h3>
+    </div>
+  </div>
+</section>
+
+<!-- Planos -->
+<section id="planos" class="planos">
+  <h2>Nossos Planos</h2>
+  <div class="planos-grid">
+    <div class="plano">
+      <h3>Mensal</h3>
+      <p class="preco">R$25</p>
+      <ul>
+        <li>30 dias de acesso</li>
+        <li>+10.000 canais</li>
+        <li>Filmes e séries ilimitados</li>
+      </ul>
+      <input placeholder="Nome" id="nome1">
+      <input placeholder="WhatsApp" id="whatsapp1">
+      <button onclick="pagar(25,'nome1','whatsapp1')">Pagar com Pix</button>
+    </div>
+
+    <div class="plano">
+      <h3>3 Meses</h3>
+      <p class="preco">R$60</p>
+      <ul>
+        <li>90 dias de acesso</li>
+        <li>+10.000 canais</li>
+        <li>Filmes e séries ilimitados</li>
+      </ul>
+      <input placeholder="Nome" id="nome2">
+      <input placeholder="WhatsApp" id="whatsapp2">
+      <button onclick="pagar(60,'nome2','whatsapp2')">Pagar com Pix</button>
+    </div>
+
+    <div class="plano">
+      <h3>6 Meses</h3>
+      <p class="preco">R$100</p>
+      <ul>
+        <li>180 dias de acesso</li>
+        <li>+10.000 canais</li>
+        <li>Filmes e séries ilimitados</li>
+      </ul>
+      <input placeholder="Nome" id="nome3">
+      <input placeholder="WhatsApp" id="whatsapp3">
+      <button onclick="pagar(100,'nome3','whatsapp3')">Pagar com Pix</button>
+    </div>
+
+    <div class="plano">
+      <h3>1 Ano</h3>
+      <p class="preco">R$150</p>
+      <ul>
+        <li>365 dias de acesso</li>
+        <li>+10.000 canais</li>
+        <li>Filmes e séries ilimitados</li>
+      </ul>
+      <input placeholder="Nome" id="nome4">
+      <input placeholder="WhatsApp" id="whatsapp4">
+      <button onclick="pagar(150,'nome4','whatsapp4')">Pagar com Pix</button>
+    </div>
+  </div>
+</section>
+
+<!-- Como funciona -->
+<section class="como-funciona">
+  <h2>Como funciona</h2>
+  <div class="steps">
+    <div class="step">
+      <h3>1️⃣ Escolha seu plano</h3>
+    </div>
+    <div class="step">
+      <h3>2️⃣ Pague via Pix</h3>
+    </div>
+    <div class="step">
+      <h3>3️⃣ Liberação automática</h3>
+    </div>
+    <div class="step">
+      <h3>4️⃣ Receba login no WhatsApp</h3>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <h2>Perguntas Frequentes</h2>
+  <div class="faq-item">
+    <h4>Como assino?</h4>
+    <p>Escolha o plano, preencha seus dados e pague via Pix.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Posso assistir na Smart TV?</h4>
+    <p>Sim, compatível com Smart TV, Android e iOS.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Posso cancelar?</h4>
+    <p>Você terá acesso pelo período contratado, não há renovação automática.</p>
+  </div>
+</section>
+
+<!-- Rodapé -->
+<footer>
+  <p>Contato: <a href="https://api.whatsapp.com/send?phone=5547992686745" target="_blank">+55 47 99268-6745</a></p>
+  <p>© 2026 AliePlay. Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+body{
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  background:#070721;
+  color:white;
+  scroll-behavior:smooth;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+}
+
+header.hero{
+  background: linear-gradient(135deg, #12123a 0%, #070721 100%);
+  text-align:center;
+  padding:60px 20px;
+}
+
+header .logo{
+  width:180px;
+  margin-bottom:20px;
+}
+
+header h1{
+  font-size:48px;
+  margin:10px 0;
+  color:#ff00cc;
+}
+
+header p{
+  font-size:20px;
+  margin-bottom:30px;
+}
+
+.btn-hero{
+  background:linear-gradient(90deg,#ff00cc,#00c3ff);
+  padding:15px 35px;
+  border-radius:25px;
+  font-size:18px;
+  color:white;
+}
+
+.vantagens{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.vantagens h2{
+  font-size:36px;
+  margin-bottom:40px;
+}
+
+.vantagens-cards{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:30px;
+}
+
+.vantagens-cards .card{
+  background:#12123a;
+  padding:20px;
+  border-radius:15px;
+  width:200px;
+  text-align:center;
+}
+
+.vantagens-cards img{
+  width:50px;
+  margin-bottom:15px;
+}
+
+.planos{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.planos h2{
+  font-size:36px;
+  margin-bottom:40px;
+}
+
+.planos-grid{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:30px;
+}
+
+.plano{
+  background:#12123a;
+  padding:30px;
+  border-radius:15px;
+  width:250px;
+}
+
+.plano h3{
+  font-size:28px;
+  color:#ff00cc;
+}
+
+.preco{
+  font-size:32px;
+  margin:10px 0;
+}
+
+.plano ul{
+  text-align:left;
+  padding-left:20px;
+  margin-bottom:10px;
+}
+
+.plano input{
+  width:90%;
+  padding:8px;
+  margin:5px 0;
+  border-radius:8px;
+  border:none;
+}
+
+.plano button{
+  background:linear-gradient(90deg,#ff00cc,#00c3ff);
+  border:none;
+  padding:12px 25px;
+  border-radius:25px;
+  color:white;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.como-funciona{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.como-funciona h2{
+  font-size:36px;
+  margin-bottom:40px;
+}
+
+.steps{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.step{
+  background:#12123a;
+  padding:30px;
+  border-radius:15px;
+  width:200px;
+  font-size:18px;
+}
+
+.faq{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.faq h2{
+  font-size:36px;
+  margin-bottom:40px;
+}
+
+.faq-item{
+  background:#12123a;
+  margin:15px auto;
+  padding:20px;
+  border-radius:15px;
+  max-width:600px;
+  text-align:left;
+}
+
+footer{
+  background:#070721;
+  padding:30px 20px;
+  text-align:center;
+  font-size:16px;
+}
